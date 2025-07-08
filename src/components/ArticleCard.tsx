@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clock, User, ExternalLink } from 'lucide-react';
-import { Article } from '../type';
+import { Article } from '../../type';
 import { format } from 'date-fns';
 import LazyImage from './LazyImage';
 

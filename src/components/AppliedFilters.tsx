@@ -1,6 +1,6 @@
 import React from 'react';
 import { X } from 'lucide-react';
-import { EnhancedSearchFilters } from '../type';
+import { EnhancedSearchFilters } from '../../type';
 
 interface AppliedFiltersProps {
   filters: EnhancedSearchFilters;
