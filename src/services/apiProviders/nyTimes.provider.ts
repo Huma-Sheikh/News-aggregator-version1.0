@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { BaseApiProvider } from './apiProvider.interface';
-import { Article, EnhancedSearchFilters, NYTimesArticle, NYTimesApiResponse } from '../../types';
+import { Article, EnhancedSearchFilters, NYTimesArticle, NYTimesApiResponse } from '../../type';
 
 export class NYTimesApiProvider extends BaseApiProvider {
   readonly name = 'The New York Times';

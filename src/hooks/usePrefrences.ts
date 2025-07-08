@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react';
-import { UserPreferences, EnhancedSearchFilters } from '../types';
+import { UserPreferences, EnhancedSearchFilters } from '../type';
 import { useLocalStorage } from './useLocalStorage';
-import { SearchFilterService } from '../services/searchFilter.service';
+import { SearchFilterService } from '../services/SearchFilter.service';
 import localStorageService from '../services/localStorage.service';
 
 export const usePreferences = () => {

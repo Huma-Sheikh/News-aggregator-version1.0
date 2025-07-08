@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { SearchFilters, EnhancedSearchFilters } from '../type';
-import { SearchFilterService } from '../services/searchFilter.service';
+import { SearchFilterService } from '../services/SearchFilter.service';
 import { useLocalStorage } from './useLocalStorage';
 
 interface UseSearchFiltersProps {
