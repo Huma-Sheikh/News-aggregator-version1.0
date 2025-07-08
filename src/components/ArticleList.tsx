@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Article } from '../types';
+import { Article } from '../type';
 import ArticleCard from './ArticleCard';
 import SkeletonCard from './SkeletonCard';
 import { Loader2, Search, Filter, RefreshCw, TrendingUp, Globe, Calendar } from 'lucide-react';
